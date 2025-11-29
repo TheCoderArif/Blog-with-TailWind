@@ -1,0 +1,53 @@
+
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co.com/bRJKFqHF/pexels-didsss-1314584.jpg",
+    "title": "Exploring the Depths of Artificial Intelligence",
+    "author": "Dr. Evelyn Reed",
+    "author_img": "https://i.ibb.co.com/rRWCpbYt/pexels-amiresel-4423851.jpg",
+    "posted_date": "2025-10-15",
+    "reading_time_minutes": 12,
+    "hashtags": ["AI", "MachineLearning", "Technology"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co.com/tPwKVjCY/pexels-rahulp9800-4128029.jpg",
+    "title": "The Art of Minimalist Design in Web Development",
+    "author": "Liam Harrison",
+    "author_img": "https://i.ibb.co.com/JFB2V9kq/pexels-shantanu09-15595566.jpg",
+    "posted_date": "2025-10-22",
+    "reading_time_minutes": 8,
+    "hashtags": ["Design", "UIUX", "Frontend"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co.com/HDRmVJbK/pexels-scottwebb-1029604.jpg",
+    "title": "A Beginner's Guide to Cloud Computing Security",
+    "author": "Maya Patel",
+    "author_img": "https://i.ibb.co.com/ymSW39ZH/pexels-ferdous-11687253.jpg",
+    "posted_date": "2025-11-01",
+    "reading_time_minutes": 15,
+    "hashtags": ["Cloud", "Security", "DevOps"]
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co.com/zh5bWHff/pexels-chuck-3744195.jpg",
+    "title": "JavaScript Frameworks: A Comprehensive Comparison",
+    "author": "Noah Carter",
+    "author_img": "https://i.ibb.co.com/Kt7JJb1/pexels-vitalyagorbachev-13234233.jpg",
+    "posted_date": "2025-11-08",
+    "reading_time_minutes": 10,
+    "hashtags": ["JavaScript", "React", "Vue", "Angular"]
+  },
+  {
+    "id": 5,
+    "cover": "https://i.ibb.co.com/Y4twTPV2/pexels-artempodrez-6786608.jpg",
+    "title": "The Importance of Data Privacy in the Digital Age",
+    "author": "Sophia Martinez",
+    "author_img": "https://i.ibb.co.com/BHxxWPC5/pexels-pavel-danilyuk-8057312.jpg",
+    "posted_date": "2025-11-15",
+    "reading_time_minutes": 14,
+    "hashtags": ["Privacy", "DataScience", "Ethics"]
+  }
+]
