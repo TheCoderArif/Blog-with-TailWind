@@ -1,4 +1,3 @@
-
 import { useState } from 'react'
 import './App.css'
 import Blogs from './components/Blogs/Blogs'
@@ -17,9 +16,12 @@ function App() {
     setBookmarks(newBookmarks);
   }
 
-  const handleReadingTime = time => {
+  const handleReadingTime = (id, time) => {
     const newReadingTime = readingTime + time ;
     setReadingTime(newReadingTime);
+
+    const newBookmarks = bookmarks.filter(bookmark => bookmark.id !== id)
+    setBookmarks(newBookmarks)
   }
 
   return (

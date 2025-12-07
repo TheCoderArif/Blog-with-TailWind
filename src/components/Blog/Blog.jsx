@@ -3,7 +3,7 @@ const Blog = (props ) => {
     const blog = props.data;
     const handleBookmark = props.handleBookmark;
     const handleReadingTime = props.handleReadingTime;
-    const {author,posted_date,reading_time_minutes,hashtags,author_img,title, cover} = blog;
+    const {id, author,posted_date,reading_time_minutes,hashtags,author_img,title, cover} = blog;
     return (
         <div >
 
@@ -29,7 +29,7 @@ const Blog = (props ) => {
                 }
             </p>
 
-            <button onClick={() => handleReadingTime(reading_time_minutes)} className="text-cyan-700 underline"> Mark as read</button>
+            <button onClick={() => handleReadingTime(id, reading_time_minutes)} className="text-cyan-700 underline"> Mark as read</button>
         </div>
     );
 };
